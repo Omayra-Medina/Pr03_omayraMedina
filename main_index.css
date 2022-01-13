@@ -1,0 +1,93 @@
+div.left {
+  margin: 0px;
+  padding: 0px;  
+  width: 30%;
+}
+
+aside {
+    width: 100%;
+}
+
+aside article:first-of-type {
+    margin-bottom: 16px;
+}
+
+aside figure {
+    width: 100%;
+    margin: 0px;
+}
+
+
+aside article:first-of-type a:hover {
+    text-decoration: underline;
+}
+
+section.paginacion {
+    width: 100%;
+    background-color: beige;
+}
+
+section.paginacion {
+    background-color: beige;
+}
+
+section.paginacion ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+section.paginacion ul li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+section.paginacion ul li a{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-image: url(../imagenes/background.jpg);
+}
+
+section.recetas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+section.recetas a {
+    padding: 2px;
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 300px;
+    height: 200px;
+    top: 0px;
+}
+
+section.recetas article {
+    height: 200px;
+}
+
+section.recetas article figure {
+    margin: 0px;
+    height: 35%;
+}
+
+section.recetas article img {
+    max-width: 260px;
+    max-height: 195px;
+}
+
+section.recetas article p {
+    display: flex;
+    justify-content: center;
+}
+
+section.recetas a:hover {
+    border: 2px solid black;
+    padding: 8px;
+}

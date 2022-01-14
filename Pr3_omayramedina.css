@@ -1,5 +1,5 @@
 body{
-    background-color: #f0f1f4;
+    background-color: #FFFAFA;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@ body{
     margin-top: 20px;
     padding-top: 10px;
     padding-left: 16px;  
-    background-color: rgb(255, 235, 214);
+    background-color: #f0f1f4;
     border-radius: 20px;
 
 }
@@ -49,17 +49,9 @@ main {
     margin-bottom: 16px;
 }
 
-body::-webkit-scrollbar {
-    width: 8px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: black;
-    border-radius: 5px;
-}
 
 footer {
-    background-color: #8C92AC;
+    background-color: #f0f1f4;
     margin-bottom: 16px;
 }
 

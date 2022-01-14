@@ -4,88 +4,82 @@ div.left {
     width: 30%;
   }
   
-  aside {
+aside {
       width: 100%;
   }
   
-  aside article:first-of-type {
+aside article:first-of-type {
       margin-bottom: 16px;
   }
   
-  aside figure {
+aside figure {
       width: 100%;
       margin: 0px;
   }
   
-  
-  aside article:first-of-type a:hover {
+aside article:first-of-type a:hover {
       text-decoration: underline;
-  }
-  
-  section.paginacion {
-      width: 100%;
-      background-color: beige;
-  }
-  
-  section.paginacion {
-      background-color: beige;
-  }
-  
-  section.paginacion ul {
-      margin: 0px;
-      padding: 0px;
-  }
-  
-  section.paginacion ul li {
-      list-style-type: none;
-      margin: 0px;
-      padding: 0px;
-  }
-  
-  section.paginacion ul li a{
-      margin: 0px;
-      padding: 0px;
-      position: relative;
-      display: inline-block;
       text-align: center;
-      background-image: url("background.jpg");
+      margin: 0px
   }
   
-  section.recetas {
-      display: flex;
-      flex-wrap: wrap;
-      width: 80%;
-      padding-left: 16px;
-      padding-right: 16px;
-  }
-  
-  section.recetas a {
-      padding: 2px;
-      box-sizing: border-box;
-      width: 50%;
-      max-width: 300px;
-      height: 200px;
-      top: 0px;
-  }
-  
-  section.recetas article {
-      height: 200px;
-  }
-  
-  section.recetas article figure {
-      margin: 0px;
-      height: 35%;
-  }
-  
-  section.recetas article img {
-      max-width: 260px;
-      max-height: 195px;
-  }
-  
-  section.recetas article p {
-      display: flex;
-      justify-content: center;
-  }
+section.receta {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 50%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+section.receta a {
+    padding: calc(0.5em + 2px);
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 300px;
+    height: 17em;
+    top: 0px;
+}
+
+section.recetas article {
+    height: 16em;
+}
+
+section.receta article figure {
+    margin: 0px;
+    height: 40%;
+}
+
+section.receta article img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+section.receta article p {
+    display: flex;
+    justify-content: center;
+}
+
+section.receta article p:first-of-type {
+    align-items: center;
+    text-align: center;
+    font-size: var(--title);
+    height: 15%;
+}
+
+section.receta article p:nth-of-type(2n) {
+    align-items: center;
+    font-size: var(--text-little);
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    height: 5%;
+}
+
+section.receta article p:nth-of-type(3n) {
+    font-size: var(--text);
+    height: 30%;
+    overflow: auto;
+}
   
   section.recetas a:hover {
       border: 2px solid black;

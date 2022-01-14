@@ -1,6 +1,5 @@
 body{
-    background-image: url("background.jpg");
-    background-color: beige;
+    background-color: #f0f1f4;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -10,13 +9,10 @@ body{
     display: inline-block;
     width: 80%;
     max-width: 1175px;
-
     margin-top: 20px;
     padding-top: 10px;
-    padding-left: 1em;  
-
+    padding-left: 16px;  
     background-color: rgb(255, 235, 214);
-    
     border-radius: 20px;
 
 }
@@ -63,7 +59,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 footer {
-    background-color: beige;
+    background-color: #8C92AC;
     margin-bottom: 16px;
 }
 
@@ -80,7 +76,6 @@ footer ul li {
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    width: calc(100% / 5);
     height: 32px;
 }
 
